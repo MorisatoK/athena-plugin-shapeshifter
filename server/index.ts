@@ -4,7 +4,7 @@ import { Shapeshifter } from './src/system';
 
 const PLUGIN_NAME = 'Athena Shapeshifter';
 
-PluginSystem.registerPlugin(PLUGIN_NAME, async () => {
+PluginSystem.registerPlugin(PLUGIN_NAME, () => {
     Shapeshifter.init();
     alt.log(`~lg~${PLUGIN_NAME} was Loaded`);
 });
